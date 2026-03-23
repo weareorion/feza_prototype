@@ -1,0 +1,61 @@
+name: feza_prototype
+description: "Feza POS — a lightweight point-of-sale app for small vendors."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Local database
+  sqflite: ^2.4.2
+  path: ^1.9.1
+
+  # CSV import/export
+  csv: ^6.0.0
+
+  # PDF & printing (receipts)
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+  # File picking & sharing
+  file_picker: ^8.1.7
+  share_plus: ^10.1.4
+
+  # Screenshot capture (receipts)
+  screenshot: ^3.0.0
+
+  # Path & date utilities
+  path_provider: ^2.1.5
+  intl: ^0.19.0
+
+  # Permissions
+  permission_handler: ^11.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: ^2.4.14
+  riverpod_generator: ^2.6.3
+
+  # Mocking for tests
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
